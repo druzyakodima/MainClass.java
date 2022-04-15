@@ -51,7 +51,7 @@ public class Car implements Runnable {
                 race.getStages().get(i).go(this);
             }
 
-                checkWin(this);
+            checkWin(this);
 
             cbr.await();
         } catch (Exception e) {
